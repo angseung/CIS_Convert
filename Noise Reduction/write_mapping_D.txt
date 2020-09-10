@@ -1,0 +1,417 @@
+5'd0 : begin
+	// D2 D5 D8 D10 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd1 : begin
+	// D3 D5 D8 D10 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd2 : begin
+	// D2 D8 D10 D12 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D8 = [6], [2]
+	o_D2a <= pixelinW[6];
+	o_D2b <= pixelinW[2];
+	// D10 = [5], [3]
+	o_D3a <= pixelinW[5];
+	o_D3b <= pixelinW[3];
+	// D12 = [3], [2]
+	o_D4a <= pixelinW[3];
+	o_D4b <= pixelinW[2];
+end
+5'd3 : begin
+	// D1 D6 D8 D10 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D6 = [7], [2]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd4 : begin
+	// D2 D5 D7 D10 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[1];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd5 : begin
+	// D3 D5 D7 D10 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[1];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd6 : begin
+	// D2 D4 D9 D10 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+	// D9 = [6], [5]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[5];
+	// D10 = [5], [3]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[3];
+end
+5'd7 : begin
+	// D1 D9 D10 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D9 = [6], [5]
+	o_D2a <= pixelinW[6];
+	o_D2b <= pixelinW[5];
+	// D10 = [5], [3]
+	o_D3a <= pixelinW[5];
+	o_D3b <= pixelinW[3];
+end
+5'd8 : begin
+	// D2 D5 D8 D11 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D11 = [5], [0]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[0];
+end
+5'd9 : begin
+	// D3 D5 D7 D9 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[1];
+	// D9 = [6], [5]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[5];
+end
+5'd10 : begin
+	// D2 D6 D8 D11 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D6 = [7], [2]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D11 = [5], [0]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[0];
+end
+5'd11 : begin
+	// D6 D8 D9 
+	// D6 = [7], [2]
+	o_D1a <= pixelinW[7];
+	o_D1b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D2a <= pixelinW[6];
+	o_D2b <= pixelinW[2];
+	// D9 = [6], [5]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[5];
+end
+5'd12 : begin
+	// D2 D5 D9 D11 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D9 = [6], [5]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[5];
+	// D11 = [5], [0]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[0];
+end
+5'd13 : begin
+	// D3 D5 D9 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D9 = [6], [5]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[5];
+end
+5'd14 : begin
+	// D2 D4 D9 D11 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+	// D9 = [6], [5]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[5];
+	// D11 = [5], [0]
+	o_D4a <= pixelinW[5];
+	o_D4b <= pixelinW[0];
+end
+5'd15 : begin
+	// D9 
+	// D9 = [6], [5]
+	o_D1a <= pixelinW[6];
+	o_D1b <= pixelinW[5];
+end
+5'd16 : begin
+	// D2 D5 D8 D12 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D12 = [3], [2]
+	o_D4a <= pixelinW[3];
+	o_D4b <= pixelinW[2];
+end
+5'd17 : begin
+	// D1 D5 D8 D12 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D12 = [3], [2]
+	o_D4a <= pixelinW[3];
+	o_D4b <= pixelinW[2];
+end
+5'd18 : begin
+	// D2 D4 D8 D12 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D12 = [3], [2]
+	o_D4a <= pixelinW[3];
+	o_D4b <= pixelinW[2];
+end
+5'd19 : begin
+	// D1 D6 D8 D12 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D6 = [7], [2]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[2];
+	// D12 = [3], [2]
+	o_D4a <= pixelinW[3];
+	o_D4b <= pixelinW[2];
+end
+5'd20 : begin
+	// D1 D2 D5 D7 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D2 = [8], [0]
+	o_D2a <= pixelinW[8];
+	o_D2b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[1];
+end
+5'd21 : begin
+	// D1 D5 D7 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[1];
+end
+5'd22 : begin
+	// D1 D2 D4 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+	// D2 = [8], [0]
+	o_D2a <= pixelinW[8];
+	o_D2b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[0];
+end
+5'd23 : begin
+	// D1 
+	// D1 = [8], [3]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[3];
+end
+5'd24 : begin
+	// D2 D5 D6 D8 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D6 = [7], [2]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[2];
+end
+5'd25 : begin
+	// D3 D5 D6 D8 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D6 = [7], [2]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[2];
+end
+5'd26 : begin
+	// D2 D4 D6 D8 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+	// D6 = [7], [2]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[2];
+end
+5'd27 : begin
+	// D6 D8 
+	// D6 = [7], [2]
+	o_D1a <= pixelinW[7];
+	o_D1b <= pixelinW[2];
+	// D8 = [6], [2]
+	o_D2a <= pixelinW[6];
+	o_D2b <= pixelinW[2];
+end
+5'd28 : begin
+	// D2 D4 D5 D7 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+	// D5 = [7], [1]
+	o_D3a <= pixelinW[7];
+	o_D3b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D4a <= pixelinW[6];
+	o_D4b <= pixelinW[1];
+end
+5'd29 : begin
+	// D3 D5 D7 
+	// D3 = [8], [1]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[1];
+	// D5 = [7], [1]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[1];
+	// D7 = [6], [1]
+	o_D3a <= pixelinW[6];
+	o_D3b <= pixelinW[1];
+end
+5'd30 : begin
+	// D2 D4 
+	// D2 = [8], [0]
+	o_D1a <= pixelinW[8];
+	o_D1b <= pixelinW[0];
+	// D4 = [7], [0]
+	o_D2a <= pixelinW[7];
+	o_D2b <= pixelinW[0];
+end
