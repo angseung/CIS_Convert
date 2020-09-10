@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10 20:00&#10;RSEPD, JRT Function Added...&#10;imgload, add_salt_pepper_noise and Main Script Added...">
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599724826935</updated>
-      <workItem from="1599724827963" duration="12459000" />
+      <workItem from="1599724827963" duration="13020000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599737465648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated...">
+      <created>1599741836798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741836798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,16 +183,17 @@
     <MESSAGE value="2020.09.10&#10;Python Code Added..." />
     <MESSAGE value="2020.09.10 20:00&#10;RSEPD, JRT Function Added..." />
     <MESSAGE value="2020.09.10 20:00&#10;RSEPD, JRT Function Added...&#10;imgload, add_salt_pepper_noise and Main Script Added..." />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.09.10 20:00&#10;RSEPD, JRT Function Added...&#10;imgload, add_salt_pepper_noise and Main Script Added..." />
+    <MESSAGE value="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="3341" y="344" key="SettingsEditor" timestamp="1599726122590">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599726122590" />
-    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599737470081">
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599741841799">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599737470081" />
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599741841799" />
   </component>
 </project>

@@ -3,7 +3,6 @@ from PIL import Image
 from matplotlib.pyplot import imshow
 
 def imgload(name = ""):
-
     img = Image.open("Noise Reduction/input_images/" + name)
     im = np.array(img)
 
