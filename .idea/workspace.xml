@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AWB/AWB.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/11.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/12.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/13.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/14.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/15.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/16.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/17.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/18.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/19.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/AngularError.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_0000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_0000.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_BNR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_BNR.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_0000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_0000.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_BNR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_BNR.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_10bit_women_LP_0000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_10bit_women_LP_0000.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_women_BNR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_women_BNR.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/ColorConstancyDemo.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/ae_results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/cal_point.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/do.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/ex_imagewarping.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/general_cc.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/get_chart.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/get_illuminant.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/get_mask_chart.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/get_vertex.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/hw_test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/incremental_image.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/MondrianExperiment.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/building1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/building1_cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/cow2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/dog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/input_images/tungsten.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/mask.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/mask_chart_patch.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/norm_derivative.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/output_image.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/paper_jrt.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/read_image.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/results/1st_edge_detected_cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/results/gaus_filtered_cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/results/imgradient_edge_cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/results/input_cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/results/sobel_filter_cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/test_image.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/tt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWB/write_image_txt.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7c2df087-4557-41e2-ab21-eb41dccd1522" />
+  <component name="ProjectId" id="1hJMdCaS80E1iLJ2JJXUQqsCl2J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="" />
+      <created>1599724826935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599724826935</updated>
+      <workItem from="1599724827963" duration="462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
