@@ -19,65 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AWB/AWB.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/10.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/11.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/12.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/13.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/14.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/15.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/16.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/17.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/18.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AWB_images/19.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/AngularError.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_0000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_0000.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_BNR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/2M_IMG_BNR.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_0000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_0000.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_BNR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8120_dark_BNR.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_10bit_women_LP_0000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_10bit_women_LP_0000.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_women_BNR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/CP_images/CP8220_bayer_women_BNR.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/ColorConstancyDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/ae_results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/cal_point.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/do.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/ex_imagewarping.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/general_cc.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/get_chart.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/get_illuminant.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/get_mask_chart.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/get_vertex.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/hw_test.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/incremental_image.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/MondrianExperiment.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/building1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/building1_cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/cow2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/dog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/tungsten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/mask.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/mask_chart_patch.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/norm_derivative.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/output_image.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/paper_jrt.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/read_image.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/results/1st_edge_detected_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/results/gaus_filtered_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/results/imgradient_edge_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/results/input_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/results/sobel_filter_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/test_image.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/tt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/write_image_txt.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10&#10;Python Code Added...">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +39,22 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CIS_Processing.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JupyterTrust" id="7c2df087-4557-41e2-ab21-eb41dccd1522" />
   <component name="ProjectId" id="1hJMdCaS80E1iLJ2JJXUQqsCl2J" />
@@ -105,8 +67,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CIS_MATLAB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,8 +105,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599724826935</updated>
-      <workItem from="1599724827963" duration="462000" />
+      <workItem from="1599724827963" duration="6647000" />
     </task>
+    <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
+      <created>1599725332794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599725332794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +133,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2020.09.10&#10;Python Code Added..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.10&#10;Python Code Added..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3341" y="344" key="SettingsEditor" timestamp="1599726122590">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599726122590" />
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599725339289">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599725339289" />
   </component>
 </project>
