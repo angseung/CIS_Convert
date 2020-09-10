@@ -2,8 +2,9 @@ import numpy as np
 from CIS_Processing import *
 from CIS_Utils import *
 import cv2
+from matplotlib import pyplot as plt
 
-testImages = ["barbara"]
+testImages = ["testimage.jpg"]
 numImages = len(testImages)
 
 noiseRatio = [0.02]
@@ -25,4 +26,8 @@ else:
 for nr in range(numNoise):
     for imnum in range(numImages):
         ori_image = imgload(testImages[imnum])
+        image = add_salt_pepper_noise([ori_image])
+        plt.imshow(image[0])
+        plt.show()
+
 

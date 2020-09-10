@@ -1,9 +1,10 @@
 import numpy as np
 from PIL import Image
+from matplotlib.pyplot import imshow
 
 def imgload(name = ""):
 
-    img = Image.open("input_files/" + name)
+    img = Image.open("Noise Reduction/input_images/" + name)
     im = np.array(img)
 
     return im
@@ -13,7 +14,7 @@ def add_salt_pepper_noise(X_imgs):
     X_imgs_copy = X_imgs.copy()
     row, col, _ = X_imgs_copy[0].shape
     salt_vs_pepper = 0.2
-    amount = 0.004
+    amount = 0.04
     num_salt = np.ceil(amount * X_imgs_copy[0].size * salt_vs_pepper)
     num_pepper = np.ceil(amount * X_imgs_copy[0].size * (1.0 - salt_vs_pepper))
 
