@@ -74,9 +74,9 @@ def hw_RSEPD(input_image = None, Ts = 0):
 
 
 def paper_jrt(input_image = None, N = 4):
-    truncRed = 0
-    truncGreen = 0
-    truncBlue = 0
+    # truncRed = 0
+    # truncGreen = 0
+    # truncBlue = 0
 
     output_image = np.zeros(input_image.shape)
     rowsize = (input_image.shape[0]) // N
@@ -85,14 +85,14 @@ def paper_jrt(input_image = None, N = 4):
 
     for i in range(rowsize):
         before = now
-        now = np.squeeze(sum(input_image[:, N * (i - 1) : N * i, :], 2))
+        now = np.squeeze(sum(input_image[:, N * (i - 1) : N * i, :], 1))
 
         if (i == 1):
             gain = now
         else:
             gain = gain + abs(before - now)
 
-    finalGain = sum(gain, 1)
+    finalGain = sum(gain, 0)
 
     som = np.sqrt((finalGain[0] ** 2) + (finalGain[1] ** 2) + (finalGain[2] ** 2))
 

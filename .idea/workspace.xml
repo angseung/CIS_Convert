@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10&#10;Python Code Added...">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" afterDir="false" />
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10 20:00&#10;RSEPD, JRT Function Added...">
+      <change afterPath="$PROJECT_DIR$/CIS_Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
     </list>
@@ -55,6 +53,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CIS_Processing.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CIS_main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CIS_Utils.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JupyterTrust" id="7c2df087-4557-41e2-ab21-eb41dccd1522" />
   <component name="ProjectId" id="1hJMdCaS80E1iLJ2JJXUQqsCl2J" />
@@ -105,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599724826935</updated>
-      <workItem from="1599724827963" duration="6647000" />
+      <workItem from="1599724827963" duration="9284000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599725332794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020.09.10 20:00&#10;RSEPD, JRT Function Added...">
+      <created>1599734822592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599734822592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,16 +141,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2020.09.10&#10;Python Code Added..." />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.09.10&#10;Python Code Added..." />
+    <MESSAGE value="2020.09.10 20:00&#10;RSEPD, JRT Function Added..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.10 20:00&#10;RSEPD, JRT Function Added..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="3341" y="344" key="SettingsEditor" timestamp="1599726122590">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599726122590" />
-    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599725339289">
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599734827765">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599725339289" />
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599734827765" />
   </component>
 </project>
