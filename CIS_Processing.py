@@ -1,11 +1,12 @@
 import numpy as np
 
-def hw_RSEPD(input_image = None, Ts = 0):
+def hw_RSEPD(input_image = None, Ts = 20):
     rowsize = input_image.shape[0]
     colsize = input_image.shape[1]
     denoised_image = np.zeros(input_image.shape,)
 
-    padIm = np.pad(input_image, [1, 1], 'symmetric')
+    padIm = np.pad(input_image, ([1, 1], [1, 1], [0, 0]), 'symmetric')
+    # padIm = np.pad(input_image, [1, 1], 'symmetric')
 
     row_buffer = np.zeros(colsize,)
 
@@ -103,5 +104,7 @@ def paper_jrt(input_image = None, N = 4):
     output_image[:, :, 0] = gain_R
     output_image[:, :, 1] = gain_G
     output_image[:, :, 2] = gain_B
+
+    print("hw_JRT end")
 
     return output_image

@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated...">
+      <change afterPath="$PROJECT_DIR$/Salt_and_Pepper_Noised_IMG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CIS_MATLAB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     <setting file="file://$PROJECT_DIR$/CIS_main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CIS_Utils.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="JupyterTrust" id="7c2df087-4557-41e2-ab21-eb41dccd1522" />
+  <component name="JupyterTrust" id="b80f085f-1a08-4045-b171-0f538f06b10e" />
   <component name="ProjectId" id="1hJMdCaS80E1iLJ2JJXUQqsCl2J" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,7 +76,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.CIS_main">
+    <configuration name="CIS_Utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CIS_MATLAB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CIS_Utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CIS_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CIS_MATLAB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.CIS_main" />
-        <item itemvalue="Python.CIS_main" />
+        <item itemvalue="Python.CIS_Utils" />
         <item itemvalue="Python.CIS_main" />
         <item itemvalue="Python.CIS_main" />
         <item itemvalue="Python.CIS_main" />
@@ -132,6 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599724826935</updated>
       <workItem from="1599724827963" duration="13020000" />
+      <workItem from="1599748445084" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -177,6 +202,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -187,13 +213,68 @@
     <option name="LAST_COMMIT_MESSAGE" value="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3341" y="344" key="SettingsEditor" timestamp="1599726122590">
-      <screen x="2560" y="0" width="2560" height="1400" />
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog" timestamp="1599749366358">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599749366358" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1599750440407">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440407" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1599750440406">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1599750440405">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440405" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1599750440406">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1599750442018">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442018" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1599750442017">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1599750442016">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442016" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1599750442017">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
+    <state x="547" y="275" key="SettingsEditor" timestamp="1599748745889">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="547" y="275" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599748745889" />
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599726122590" />
     <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599741841799">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599741841799" />
+    <state x="594" y="149" width="604" height="822" key="find.popup" timestamp="1599749408903">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="594" y="149" width="604" height="822" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599749408903" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1599750440257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -8,12 +8,12 @@ def imgload(name = ""):
 
     return im
 
-def add_salt_pepper_noise(X_imgs):
+def add_salt_pepper_noise(X_imgs = None, amount = 0.01):
     # Need to produce a copy as to not modify the original image
     X_imgs_copy = X_imgs.copy()
     row, col, _ = X_imgs_copy[0].shape
     salt_vs_pepper = 0.2
-    amount = 0.04
+    # amount = 0.04
     num_salt = np.ceil(amount * X_imgs_copy[0].size * salt_vs_pepper)
     num_pepper = np.ceil(amount * X_imgs_copy[0].size * (1.0 - salt_vs_pepper))
 
