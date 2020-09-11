@@ -102,7 +102,6 @@ def paper_jrt(input_image = None, N = 4):
         else:
             gain = gain + np.abs(before - now)
         gain_view = np.sum(gain, 0)
-        a = 0
 
     finalGain = np.sum(gain, 0)
 
@@ -118,6 +117,9 @@ def paper_jrt(input_image = None, N = 4):
 
     print("hw_JRT end")
 
+    ## Value Check!!
+    # is_valid = output_image[output_image < 0]
+    output_image = np.clip(output_image, 0, 255.0)
     output_image = np.uint8(output_image)
 
     return output_image
