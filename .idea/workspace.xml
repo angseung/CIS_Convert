@@ -19,219 +19,92 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.11 00:20&#10;&#10;Debug RSEPD Function...">
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/10_8D5U5533.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/11_8D5U5534.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/12_8D5U5535.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/13_8D5U5536.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/14_8D5U5537.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/15_8D5U5538.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/16_8D5U5539.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/17_8D5U5540.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/18_8D5U5541.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/19_8D5U5543.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/1_8D5U5524.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/20_8D5U5544.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/21_8D5U5545.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/22_8D5U5547.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/23_8D5U5548.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/24_8D5U5549.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/25_8D5U5550.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/26_8D5U5552.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/27_8D5U5553.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/28_8D5U5554.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/29_8D5U5555.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/2_8D5U5525.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/30_8D5U5556.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/31_8D5U5557.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/32_8D5U5558.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/33_8D5U5560.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/34_8D5U5561.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/35_8D5U5562.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/36_8D5U5563.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/37_8D5U5564.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/38_8D5U5565.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/39_8D5U5566.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/3_8D5U5526.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/40_8D5U5567.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/41_8D5U5568.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/42_8D5U5569.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/43_8D5U5570.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/44_8D5U5571.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/45_8D5U5572.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/46_8D5U5573.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/47_8D5U5574.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/48_8D5U5575.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/49_8D5U5576.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/4_8D5U5527.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/50_8D5U5577.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/51_8D5U5578.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/52_8D5U5579.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/53_8D5U5580.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/54_8D5U5581.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/55_8D5U5582.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/56_8D5U5583.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/57_8D5U5584.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/58_8D5U5585.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/59_8D5U5586.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/5_8D5U5528.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/60_8D5U5587.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/61_8D5U5588.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/62_8D5U5589.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/63_8D5U5592.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/64_8D5U5593.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/65_8D5U5594.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/66_8D5U5596.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/67_8D5U5597.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/68_8D5U5598.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/69_8D5U5599.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/6_8D5U5529.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/70_8D5U5600.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/71_8D5U5601.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/72_8D5U5602.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/73_8D5U5603.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/74_8D5U5604.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/75_8D5U5606.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/76_8D5U5607.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/77_8D5U5608.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/78_8D5U5611.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/79_8D5U5612.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/7_8D5U5530.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/80_8D5U5613.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/81_8D5U5614.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/82_8D5U5615.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/83_8D5U5617.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/84_8D5U5618.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/85_8D5U5619.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/86_8D5U5620.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/8_8D5U5531.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWB/input_images/9_8D5U5532.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Processed_IMG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/10_8D5U5533.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/11_8D5U5534.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/12_8D5U5535.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/13_8D5U5536.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/14_8D5U5537.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/15_8D5U5538.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/16_8D5U5539.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/17_8D5U5540.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/18_8D5U5541.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/1920image2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/19_8D5U5543.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/1_8D5U5524.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/20_8D5U5544.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/21_8D5U5545.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/22_8D5U5547.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/23_8D5U5548.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/24_8D5U5549.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/25_8D5U5550.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/26_8D5U5552.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/27_8D5U5553.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/28_8D5U5554.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/29_8D5U5555.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/2_8D5U5525.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/30_8D5U5556.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/31_8D5U5557.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/32_8D5U5558.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/33_8D5U5560.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/34_8D5U5561.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/35_8D5U5562.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/36_8D5U5563.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/37_8D5U5564.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/38_8D5U5565.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/39_8D5U5566.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/3_8D5U5526.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/40_8D5U5567.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/41_8D5U5568.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/42_8D5U5569.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/43_8D5U5570.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/44_8D5U5571.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/45_8D5U5572.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/46_8D5U5573.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/47_8D5U5574.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/48_8D5U5575.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/49_8D5U5576.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/4_8D5U5527.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/50_8D5U5577.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/51_8D5U5578.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/52_8D5U5579.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/53_8D5U5580.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/54_8D5U5581.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/55_8D5U5582.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/56_8D5U5583.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/57_8D5U5584.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/58_8D5U5585.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/59_8D5U5586.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/5_8D5U5528.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/60_8D5U5587.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/61_8D5U5588.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/62_8D5U5589.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/63_8D5U5592.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/64_8D5U5593.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/65_8D5U5594.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/66_8D5U5596.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/67_8D5U5597.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/68_8D5U5598.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/69_8D5U5599.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/6_8D5U5529.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/70_8D5U5600.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/71_8D5U5601.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/72_8D5U5602.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/73_8D5U5603.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/74_8D5U5604.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/75_8D5U5606.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/76_8D5U5607.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/77_8D5U5608.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/78_8D5U5611.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/79_8D5U5612.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/7_8D5U5530.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/80_8D5U5613.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/81_8D5U5614.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/82_8D5U5615.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/83_8D5U5617.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/84_8D5U5618.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/85_8D5U5619.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/86_8D5U5620.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/8_8D5U5531.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/9_8D5U5532.tiff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/MondrianExperiment.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/baboon512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/barbara128.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/barbara256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/barbara512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/barbara64.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/bridge128.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/bridge256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/bridge64.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/building1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/building1_cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/cameraman256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/couple256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/cow2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/dog256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/dog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/goldhill512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/lena128.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/lena256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/lena512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/lena64.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/peppers128.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/peppers256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/peppers512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/peppers64.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/testimage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/tungsten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/zebra128.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/zebra256.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input_images/zebra64.bmp" afterDir="false" />
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.11 16:20&#10;&#10;Debug RSEPD Function... - Done.&#10;Debug paper_jrt Function...">
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_17_8D5U5540.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_30_8D5U5556.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_32_8D5U5558.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_33_8D5U5560.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_34_8D5U5561.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_35_8D5U5562.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_36_8D5U5563.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_38_8D5U5565.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_39_8D5U5566.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_48_8D5U5575.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_49_8D5U5576.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_50_8D5U5577.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_51_8D5U5578.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_52_8D5U5579.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_63_8D5U5592.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_64_8D5U5593.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_66_8D5U5596.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_69_8D5U5599.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_71_8D5U5601.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_73_8D5U5603.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_74_8D5U5604.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_78_8D5U5611.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_79_8D5U5612.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_84_8D5U5618.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_86_8D5U5620.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_8_8D5U5531.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_9_8D5U5532.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_building1.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_cow2.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_dog3.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_testimage.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/baboon512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/barbara128.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/barbara256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/barbara512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/barbara64.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/bridge128.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/bridge256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/bridge64.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/cameraman256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/couple256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/dog256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/goldhill512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/lena128.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/lena256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/lena512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/lena64.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/peppers128.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/peppers256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/peppers512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/peppers64.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/zebra128.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/zebra256.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_images/Gray Scale/zebra64.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWB/paper_jrt.m" beforeDir="false" afterPath="$PROJECT_DIR$/AWB/paper_jrt.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noise Reduction/do.m" beforeDir="false" afterPath="$PROJECT_DIR$/Noise Reduction/do.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noise Reduction/hw_RSEPD.m" beforeDir="false" afterPath="$PROJECT_DIR$/Noise Reduction/hw_RSEPD.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed_IMG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Salt_and_Pepper_Noised_IMG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/1920image2.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/MondrianExperiment.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/baboon512.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/barbara128.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/barbara256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/barbara512.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/barbara64.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/bridge128.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/bridge256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/bridge64.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/cameraman256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/couple256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/dog256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/goldhill512.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/lena128.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/lena256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/lena512.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/lena64.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/peppers128.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/peppers256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/peppers512.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/peppers64.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/zebra128.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/zebra256.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_images/zebra64.bmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +240,7 @@
       <workItem from="1599748445084" duration="2655000" />
       <workItem from="1599787117716" duration="5150000" />
       <workItem from="1599797586127" duration="127000" />
-      <workItem from="1599798441503" duration="7575000" />
+      <workItem from="1599798441503" duration="10550000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -404,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599751099986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2020.09.11 16:20&#10;&#10;Debug RSEPD Function... - Done.&#10;Debug paper_jrt Function...">
+      <created>1599808662696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599808662696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,59 +309,64 @@
     <MESSAGE value="2020.09.10 20:00&#10;RSEPD, JRT Function Added...&#10;imgload, add_salt_pepper_noise and Main Script Added..." />
     <MESSAGE value="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated..." />
     <MESSAGE value="2020.09.11 00:20&#10;&#10;Debug RSEPD Function..." />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.09.11 00:20&#10;&#10;Debug RSEPD Function..." />
+    <MESSAGE value="2020.09.11 16:20&#10;&#10;Debug RSEPD Function... - Done.&#10;Debug paper_jrt Function..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.11 16:20&#10;&#10;Debug RSEPD Function... - Done.&#10;Debug paper_jrt Function..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="606" y="391" key="#Notifications" timestamp="1599812120707">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="606" y="391" key="#Notifications/0.0.1792.1120@0.0.1792.1120" timestamp="1599812120707" />
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog" timestamp="1599749366358">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599749366358" />
-    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1599808421694">
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1599809710762">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053045" />
-    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599808421694" />
-    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1599808421693">
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710762" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1599809710762">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053043" />
-    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599808421693" />
-    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1599808421693">
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710762" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1599809710761">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053042" />
-    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599808421693" />
-    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1599808421694">
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710761" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1599809710762">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053044" />
-    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599808421694" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1599808432250">
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710762" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1599809710764">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053047" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599808432250" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710764" />
     <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1599807783751" />
     <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.23.1792.1021@0.23.1792.1021" timestamp="1599804396554" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1599808432248">
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1599809710763">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053046" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599808432248" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710763" />
     <state width="1750" height="392" key="GridCell.Tab.1.center/0.23.1792.1019@0.23.1792.1019" timestamp="1599807783750" />
     <state width="1750" height="392" key="GridCell.Tab.1.center/0.23.1792.1021@0.23.1792.1021" timestamp="1599804396553" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1599808432247">
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1599809710763">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053045" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599808432247" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710763" />
     <state width="1750" height="392" key="GridCell.Tab.1.left/0.23.1792.1019@0.23.1792.1019" timestamp="1599807783750" />
     <state width="1750" height="392" key="GridCell.Tab.1.left/0.23.1792.1021@0.23.1792.1021" timestamp="1599804396553" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1599808432249">
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1599809710763">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751053046" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599808432249" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599809710763" />
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.23.1792.1019@0.23.1792.1019" timestamp="1599807783751" />
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.23.1792.1021@0.23.1792.1021" timestamp="1599804396554" />
     <state x="547" y="275" key="SettingsEditor" timestamp="1599748745889">
@@ -489,11 +374,16 @@
     </state>
     <state x="547" y="275" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599748745889" />
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599726122590" />
-    <state x="610" y="346" key="Vcs.Push.Dialog.v2" timestamp="1599751108719">
+    <state x="610" y="346" key="Vcs.Push.Dialog.v2" timestamp="1599808670249">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="610" y="346" key="Vcs.Push.Dialog.v2/0.0.1792.1120/1792.40.1920.1080@0.0.1792.1120" timestamp="1599751108719" />
+    <state x="610" y="346" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1599808670249" />
     <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599741841799" />
+    <state width="896" height="560" key="XDebugger.FullValuePopup" timestamp="1599810757153">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="896" height="560" key="XDebugger.FullValuePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1599810757153" />
     <state x="594" y="149" width="604" height="822" key="find.popup" timestamp="1599749408903">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -504,8 +394,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
-          <line>108</line>
+          <line>104</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CIS_main.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -518,6 +413,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1599807948459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1599809692923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

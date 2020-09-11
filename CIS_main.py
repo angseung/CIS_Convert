@@ -3,9 +3,11 @@ from CIS_Processing import *
 from CIS_Utils import *
 import cv2
 from matplotlib import pyplot as plt
+import os
 
 # testImages = ["testimage.jpg"]
-testImages = ["32_8D5U5558.tiff"]
+# testImages = ["67_8D5U5597.tiff"]
+testImages = os.listdir("input_images")
 numImages = len(testImages)
 
 noiseRatio = [0.02]
@@ -26,7 +28,11 @@ else:
 
 for nr in range(numNoise):
     for imnum in range(numImages):
-        ori_image = imgload(testImages[imnum], 'L')
+        if ((testImages[imnum] == ".DS_Store") or (testImages[imnum] == "Gray Scale")):
+            continue
+
+        ori_image = imgload(testImages[imnum], 'RGB')
+        print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)
         plt.title("Original Image")
@@ -55,7 +61,7 @@ for nr in range(numNoise):
         plt.imshow(image_JRT)
 
         plt.show()
-        fig.savefig("Processed_IMG.png")
+        fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
 
 
 

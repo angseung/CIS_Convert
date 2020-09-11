@@ -2,11 +2,11 @@ import numpy as np
 from PIL import Image
 from matplotlib.pyplot import imshow
 
-def imgload(name = "", mode = 'L'):
+def imgload(name = "", mode = 'RGB'):
     img = Image.open("input_images/" + name)
 
-    if (img.mode is not 'RGB'):
-        img = img.convert(mode)
+    # if (img.mode is not 'RGB'):
+    #     raise NotImplementedError()
 
     im = np.array(img)
 
