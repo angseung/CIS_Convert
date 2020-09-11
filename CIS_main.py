@@ -47,9 +47,9 @@ for nr in range(numNoise):
         # fig.savefig("Salt_and_Pepper_Noised_IMG.png")
 
         image_NR = np.zeros(ori_image.shape, dtype = np.uint8)
-        # image_NR[:, :, 0] = hw_RSEPD(image_noise[0][:, :, 0], 20)
-        # image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
-        # image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
+        image_NR[:, :, 0] = hw_RSEPD(image_noise[0][:, :, 0], 20)
+        image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
+        image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
 
         plt.subplot(4,1,3)
         plt.title("Noise Reduced Image")
@@ -62,7 +62,7 @@ for nr in range(numNoise):
         plt.imshow(image_JRT)
 
         plt.show()
-        fig.savefig("Test_Result_Rev/Processed_IMG_%s.png" %testImages[imnum])
+        fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
 
 
 
