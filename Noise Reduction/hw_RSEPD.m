@@ -46,7 +46,7 @@ for i=2:rowsize+1
 			
 			% ***---- Edge-Oriented Noise filter ----***
 			if(b==1) % If surrounding pixel is noisy
-				if(padIm(i-1,j-1) == MINinW && padIm(i-1,j) == MINinW && padIm(i-1,j+1) == MINinW)
+                if(padIm(i-1,j-1) == MINinW && padIm(i-1,j) == MINinW && padIm(i-1,j+1) == MINinW)
                     f_hat = MINinW;
                 elseif(padIm(i-1,j-1) == MAXinW && padIm(i-1,j) == MAXinW && padIm(i-1,j+1) == MAXinW)
                     f_hat = MAXinW;
@@ -88,6 +88,7 @@ for i=2:rowsize+1
     end
     row_buffer = round(row_buffer);
     denoised_image(i-1,:) = row_buffer;
+    temp = padarray(row_buffer,[1],'symmetric');
     padIm(i,:) = padarray(row_buffer,[1],'symmetric');
 end
 

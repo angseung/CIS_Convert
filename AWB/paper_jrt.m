@@ -19,6 +19,9 @@ for i = 1:rowsize
     else
         gain = gain + abs(before-now); % 29 bit long
     end
+    
+    gain_view = sum(gain, 1)
+    a = 1;
 end
 finalGain = sum(gain,1); % 29 bits
 

@@ -4,15 +4,15 @@ clc;
 clear; 
 
 %% Set parameters
-enable_plot = 0; % 0 = OFF, 1 = ON
+enable_plot = 1; % 0 = OFF, 1 = ON
 
 %% Read the testing image
-testImages = ["barbara","baboon","goldhill","peppers","lena"]; %,"1920test1","1920test2"];
+% testImages = ["barbara","baboon","goldhill","peppers","lena","1920test1","1920test2"];
 % testImages = ["barbara"];
-% testImages = ["1920test2"];
+testImages = ["1920test2"];
 
 % plotImagename = "goldhill"; % one image to plot
-% plotImagename = "1920test2"; % one image to plot
+plotImagename = "1920test2"; % one image to plot
 numImages = size(testImages,2);
 
 % noiseRatio = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.15, 0.2, 0.25];
@@ -22,7 +22,8 @@ noiseRatio = [0.1, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5];
 numNoise = size(noiseRatio,2);
 
 %filters = ["median","SEPD","RSEPD","fuzzy","HTF","HTF_Fuzzy"];
-filters = ["median","HW-SEPD", "HW-DTBDM", "HTF"];
+% filters = ["median","HW-SEPD", "HW-DTBDM", "HTF"];
+filters = ["HW-RSEPD"];
     % "HTF","HW-DTBDM","HW-SEPD","HW-RSEPD","SEPD"];
 numFilter = size(filters,2);
 psnrs = zeros(numFilter, numNoise);
