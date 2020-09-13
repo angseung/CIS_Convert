@@ -21,43 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.10 20:00&#10;add_salt_pepper_noise has benn validated...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_10_8D5U5533.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_10_8D5U5533.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_11_8D5U5534.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_11_8D5U5534.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_12_8D5U5535.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_12_8D5U5535.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_13_8D5U5536.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_13_8D5U5536.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_14_8D5U5537.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_14_8D5U5537.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_15_8D5U5538.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_15_8D5U5538.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_16_8D5U5539.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_16_8D5U5539.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_17_8D5U5540.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_17_8D5U5540.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_18_8D5U5541.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_18_8D5U5541.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_19_8D5U5543.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_19_8D5U5543.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_1_8D5U5524.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_1_8D5U5524.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_20_8D5U5544.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_20_8D5U5544.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_21_8D5U5545.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_21_8D5U5545.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_22_8D5U5547.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_22_8D5U5547.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_23_8D5U5548.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_23_8D5U5548.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_24_8D5U5549.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_24_8D5U5549.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_25_8D5U5550.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_25_8D5U5550.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_26_8D5U5552.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_26_8D5U5552.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_27_8D5U5553.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_27_8D5U5553.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_28_8D5U5554.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_28_8D5U5554.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_29_8D5U5555.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_29_8D5U5555.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_2_8D5U5525.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_2_8D5U5525.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_30_8D5U5556.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_30_8D5U5556.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_31_8D5U5557.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_31_8D5U5557.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_32_8D5U5558.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_32_8D5U5558.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_33_8D5U5560.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_33_8D5U5560.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_34_8D5U5561.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_34_8D5U5561.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_35_8D5U5562.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_35_8D5U5562.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_36_8D5U5563.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_36_8D5U5563.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_37_8D5U5564.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_37_8D5U5564.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_38_8D5U5565.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_38_8D5U5565.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_39_8D5U5566.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_39_8D5U5566.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_3_8D5U5526.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_3_8D5U5526.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_40_8D5U5567.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_40_8D5U5567.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_41_8D5U5568.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_41_8D5U5568.tiff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_42_8D5U5569.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_42_8D5U5569.tiff.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +50,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CIS_Processing.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CIS_main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CIS_Utils.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CIS_main.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="JupyterTrust" id="7c2df087-4557-41e2-ab21-eb41dccd1522" />
+  <component name="JupyterTrust" id="1d1bd350-85c1-4890-bf21-7aa2b748ebfe" />
   <component name="ProjectId" id="1hJMdCaS80E1iLJ2JJXUQqsCl2J" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -105,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager" selected="Python.CIS_main">
     <configuration name="CIS_Utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -194,6 +157,7 @@
       <updated>1599724826935</updated>
       <workItem from="1599724827963" duration="13020000" />
       <workItem from="1599748445084" duration="2333000" />
+      <workItem from="1599913118070" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -286,10 +250,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
-    <state x="3341" y="344" key="SettingsEditor" timestamp="1599812800526">
-      <screen x="2560" y="0" width="2560" height="1400" />
+    <state x="547" y="275" key="SettingsEditor" timestamp="1599913502452">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="547" y="275" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599748745889" />
+    <state x="547" y="275" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599913502452" />
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599812800526" />
     <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1599741841799">
       <screen x="2560" y="0" width="2560" height="1400" />
