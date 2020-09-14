@@ -5,6 +5,8 @@ import cv2
 from matplotlib import pyplot as plt
 import os
 from scipy.io import loadmat
+import time
+
 
 # testImages = ["testimage.jpg"]
 # testImages = ["67_8D5U5597.tiff"]
@@ -30,10 +32,10 @@ else:
 for nr in range(numNoise):
     for imnum in range(numImages):
         # if ((testImages[imnum] == ".DS_Store") or (testImages[imnum] == "Gray Scale")):
-        if (not ("jpg" in testImages[imnum])):
+        if (not ("tiff" in testImages[imnum])):
             continue
 
-        ori_image = imgload(testImages[imnum], 'RGB')
+        ori_image = imgload("10_8D5U5533.tiff", 'RGB')
         print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)
@@ -61,11 +63,10 @@ for nr in range(numNoise):
         plt.title("Noise Reduced Image")
         plt.imshow(image_NR)
 
-
-        # image_JRT = paper_jrt(image_noise[0], 4)
-        # plt.subplot(4,1,4)
-        # plt.title("JRT applied Image")
-        # plt.imshow(image_JRT)
+        image_JRT = paper_jrt(ori_image, 4)
+        plt.subplot(4,1,4)
+        plt.title("JRT applied Image")
+        plt.imshow(image_JRT)
 
         plt.show()
         fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])

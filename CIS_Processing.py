@@ -1,6 +1,8 @@
 import numpy as np
+import time
 
 def hw_RSEPD(input_image = None, Ts = 20):
+    start_time = time.time()
     rowsize = input_image.shape[0]
     colsize = input_image.shape[1]
     denoised_image = np.zeros(input_image.shape,)
@@ -23,6 +25,7 @@ def hw_RSEPD(input_image = None, Ts = 20):
             f_bar = 0
             flag1 = padIm[i, j] == MINinW
             flag2 = padIm[i, j] == MAXinW
+
             if ((padIm[i, j] == MINinW) or (padIm[i, j] == MAXinW)):
                 pi = 1 # Noisy pixel
 
@@ -79,10 +82,13 @@ def hw_RSEPD(input_image = None, Ts = 20):
     print("hw_RSEPD end")
     denoised_image = np.clip(denoised_image, 0, 255)
     denoised_image = denoised_image.astype(np.uint8)
+    elapsed_time = time.time() - start_time
+    print("Elapsed Time of hw_RSEPD : %d (sec)" %elapsed_time)
     return denoised_image
 
 
 def paper_jrt(input_image = None, N = 4):
+    start_time = time.time()
     # truncRed = 0
     # truncGreen = 0
     # truncBlue = 0
@@ -122,7 +128,8 @@ def paper_jrt(input_image = None, N = 4):
 
     ## Value Check!!
     # is_valid = output_image[output_image < 0]
-    output_image = np.clip(output_image, 0, 255.0)
+    output_image = np.clip(output_image, 0.0, 255.0)
     output_image = np.uint8(output_image)
-
+    elapsed_time = time.time() - start_time
+    print("Elapsed Time of paper_jrt : %d (sec)" %elapsed_time)
     return output_image
