@@ -19,7 +19,8 @@ def hw_RSEPD(input_image = None, Ts = 20):
             MAXinW = 255
             pi = 0
 
-            f_bar = padIm[i, j]
+            # f_bar = padIm[i, j]
+            f_bar = 0
 
             if ((padIm[i, j] == MINinW) or (padIm[i, j] == MAXinW)):
                 pi = 1 # Noisy pixel
@@ -35,9 +36,9 @@ def hw_RSEPD(input_image = None, Ts = 20):
 
                     ### Edge-Oriented Noise filter
                     if (b == 1): # If surrounding pixel is noisy
-                        if ((padIm[i - 1, j - 1] == MINinW) and (padIm[i - 1, j]     == MINinW) and (padIm[i - 1, j + 1] == MINinW)):
+                        if ((padIm[i - 1, j - 1] == MINinW) and (padIm[i - 1, j] == MINinW) and (padIm[i - 1, j + 1] == MINinW)):
                             f_hat = MINinW
-                        elif ((padIm[i - 1, j - 1] == MAXinW) and (padIm[i - 1, j]     == MAXinW) and (padIm[i - 1, j + 1] == MAXinW)):
+                        elif ((padIm[i - 1, j - 1] == MAXinW) and (padIm[i - 1, j] == MAXinW) and (padIm[i - 1, j + 1] == MAXinW)):
                             f_hat = MAXinW
                         else:
                             f_hat = ((padIm[i - 1, j - 1]) + 2 * (padIm[i - 1, j]) + (padIm[i - 1, j + 1])) / 4
@@ -51,8 +52,8 @@ def hw_RSEPD(input_image = None, Ts = 20):
                         f_hat_Db = (padIm[i - 1, j]     + padIm[i + 1, j]) / 2
                         f_hat_Dc = (padIm[i - 1, j + 1] + padIm[i + 1, j]) / 2
 
-                        D = [Da, Db, Dc]
-                        Dmin = min(D)
+                        D = np.array([Da, Db, Dc])
+                        Dmin = np.min(D)
 
                         if (Dmin == Da):
                             f_hat = f_hat_Da
