@@ -15,13 +15,14 @@ def hw_RSEPD(input_image = None, Ts = 20):
     for i in range(1, rowsize + 1):
         for j in range(1, colsize + 1):
             ## Extreme Data Detector
-            MINinW = 0
-            MAXinW = 255
+            MINinW = 0.
+            MAXinW = 255.
             pi = 0
 
             # f_bar = padIm[i, j]
             f_bar = 0
-
+            flag1 = padIm[i, j] == MINinW
+            flag2 = padIm[i, j] == MAXinW
             if ((padIm[i, j] == MINinW) or (padIm[i, j] == MAXinW)):
                 pi = 1 # Noisy pixel
 
@@ -43,30 +44,30 @@ def hw_RSEPD(input_image = None, Ts = 20):
                         else:
                             f_hat = ((padIm[i - 1, j - 1]) + 2 * (padIm[i - 1, j]) + (padIm[i - 1, j + 1])) / 4
 
-                    else: # If surrounding pixel is not noisy
-                        Da = abs(padIm[i - 1, j - 1] - padIm[i + 1, j])
-                        Db = abs(padIm[i - 1, j]     - padIm[i + 1, j])
-                        Dc = abs(padIm[i - 1, j + 1] - padIm[i + 1, j])
+                else: # If surrounding pixel is not noisy
+                    Da = abs(padIm[i - 1, j - 1] - padIm[i + 1, j])
+                    Db = abs(padIm[i - 1, j]     - padIm[i + 1, j])
+                    Dc = abs(padIm[i - 1, j + 1] - padIm[i + 1, j])
 
-                        f_hat_Da = (padIm[i - 1, j - 1] + padIm[i + 1, j]) / 2
-                        f_hat_Db = (padIm[i - 1, j]     + padIm[i + 1, j]) / 2
-                        f_hat_Dc = (padIm[i - 1, j + 1] + padIm[i + 1, j]) / 2
+                    f_hat_Da = (padIm[i - 1, j - 1] + padIm[i + 1, j]) / 2
+                    f_hat_Db = (padIm[i - 1, j]     + padIm[i + 1, j]) / 2
+                    f_hat_Dc = (padIm[i - 1, j + 1] + padIm[i + 1, j]) / 2
 
-                        D = np.array([Da, Db, Dc])
-                        Dmin = np.min(D)
+                    D = np.array([Da, Db, Dc])
+                    Dmin = np.min(D)
 
-                        if (Dmin == Da):
-                            f_hat = f_hat_Da
-                        elif (Dmin == Db):
-                            f_hat = f_hat_Db
-                        else:
-                            f_hat = f_hat_Dc
-
-                    # Impulse Arbiter
-                    if (abs(padIm[i, j] - f_hat) > Ts):
-                        f_bar = f_hat
+                    if (Dmin == Da):
+                        f_hat = f_hat_Da
+                    elif (Dmin == Db):
+                        f_hat = f_hat_Db
                     else:
-                        f_bar = padIm[i, j]
+                        f_hat = f_hat_Dc
+
+                # Impulse Arbiter
+                if (abs(padIm[i, j] - f_hat) > Ts):
+                    f_bar = f_hat
+                else:
+                    f_bar = padIm[i, j]
 
             row_buffer[j - 1] = f_bar
 
@@ -76,7 +77,8 @@ def hw_RSEPD(input_image = None, Ts = 20):
         padIm[i, :] = np.pad(row_buffer, [1], 'symmetric')
 
     print("hw_RSEPD end")
-
+    denoised_image = np.clip(denoised_image, 0, 255)
+    denoised_image = denoised_image.astype(np.uint8)
     return denoised_image
 
 
