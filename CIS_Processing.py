@@ -97,21 +97,22 @@ def hw_RSEPD_fast(input_image = None, Ts = 20):
     padIm = padIm.astype(np.float64)
     rowsize = padIm.shape[0]
     colsize = padIm.shape[1]
-    row_buffer = np.zeros((rowsize,), dtype = np.float64)
+    row_buffer = np.zeros((colsize,), dtype = np.float64)
 
     padIm = padIm.flatten()
     length = (rowsize  * colsize)
     MINinW = 0.
     MAXinW = 255.
 
-    for i in range(colsize, (((rowsize - 1) * colsize) - 1), 1):
+    for i in range((colsize + 1), ((rowsize - 1) * colsize), 1):
 
         ## Extreme Data Detector
         (x, y) = ((i % colsize), (i // colsize))
+        # print("Current index : [%d] // [%d] [%d]" %(i, x, y))
 
         # continue loop at padded pixels
         if ((y == 0) or (y == (rowsize - 1)) or (x == 0) or (x == (colsize - 1))):
-            row_buffer[i] = padIm[i]
+            row_buffer[x] = padIm[i]
             continue
 
         pi = 0
@@ -164,94 +165,94 @@ def hw_RSEPD_fast(input_image = None, Ts = 20):
             else:
                 f_bar = padIm[i]
 
-        row_buffer[i] = f_bar
+        row_buffer[x] = f_bar
 
         if (x == (colsize - 2)):
-            padIm[(y * rowsize) : ((y + 1) * rowsize)] = np.round(row_buffer, 0)
+            padIm[(y * colsize + 1) : ((y + 1) * colsize - 1)] = np.round(row_buffer, 0)[1 : -1]
             row_buffer[:] = 0.0
 
     elapsed_time = time.time() - start_time
-    print("Elapsed Time of hw_RSEPD : %d (sec)" %elapsed_time)
+    print("Elapsed Time of hw_RSEPD_fast : %d (sec)" %elapsed_time)
     denoised_image = padIm.reshape([rowsize, colsize])
     denoised_image = denoised_image[1 : -1, 1: -1]
 
     return denoised_image
-
-
-
-    row_buffer = np.zeros(colsize,)
-
-    for i in range(1, rowsize + 1):
-        for j in range(1, colsize + 1):
-            ## Extreme Data Detector
-            MINinW = 0.
-            MAXinW = 255.
-            pi = 0
-
-            # f_bar = padIm[i, j]
-            f_bar = 0
-            flag1 = padIm[i, j] == MINinW
-            flag2 = padIm[i, j] == MAXinW
-
-            if ((padIm[i, j] == MINinW) or (padIm[i, j] == MAXinW)):
-                pi = 1 # Noisy pixel
-
-            if (pi == 0): # If not noisy pixel
-                f_bar = padIm[i, j]
-
-            else:
-                b = 0
-
-                if ((padIm[i + 1, j] == MINinW) or padIm[i + 1, j] == MAXinW):
-                    b = 1 # Check surrounding pixel
-
-                    ### Edge-Oriented Noise filter
-                    if (b == 1): # If surrounding pixel is noisy
-                        if ((padIm[i - 1, j - 1] == MINinW) and (padIm[i - 1, j] == MINinW) and (padIm[i - 1, j + 1] == MINinW)):
-                            f_hat = MINinW
-                        elif ((padIm[i - 1, j - 1] == MAXinW) and (padIm[i - 1, j] == MAXinW) and (padIm[i - 1, j + 1] == MAXinW)):
-                            f_hat = MAXinW
-                        else:
-                            f_hat = ((padIm[i - 1, j - 1]) + 2 * (padIm[i - 1, j]) + (padIm[i - 1, j + 1])) / 4
-
-                else: # If surrounding pixel is not noisy
-                    Da = abs(padIm[i - 1, j - 1] - padIm[i + 1, j])
-                    Db = abs(padIm[i - 1, j]     - padIm[i + 1, j])
-                    Dc = abs(padIm[i - 1, j + 1] - padIm[i + 1, j])
-
-                    f_hat_Da = (padIm[i - 1, j - 1] + padIm[i + 1, j]) / 2
-                    f_hat_Db = (padIm[i - 1, j]     + padIm[i + 1, j]) / 2
-                    f_hat_Dc = (padIm[i - 1, j + 1] + padIm[i + 1, j]) / 2
-
-                    D = np.array([Da, Db, Dc])
-                    Dmin = np.min(D)
-
-                    if (Dmin == Da):
-                        f_hat = f_hat_Da
-                    elif (Dmin == Db):
-                        f_hat = f_hat_Db
-                    else:
-                        f_hat = f_hat_Dc
-
-                # Impulse Arbiter
-                if (abs(padIm[i, j] - f_hat) > Ts):
-                    f_bar = f_hat
-                else:
-                    f_bar = padIm[i, j]
-
-            row_buffer[j - 1] = f_bar
-
-        row_buffer = np.round(row_buffer, 0)
-        denoised_image[i - 1, :] = row_buffer
-        # temp = np.pad(row_buffer, [1], 'symmetric')
-        padIm[i, :] = np.pad(row_buffer, [1], 'symmetric')
-
-    print("hw_RSEPD end")
-    denoised_image = np.clip(denoised_image, 0, 255)
-    denoised_image = denoised_image.astype(np.uint8)
-    elapsed_time = time.time() - start_time
-    print("Elapsed Time of hw_RSEPD : %d (sec)" %elapsed_time)
-    return denoised_image
+    #
+    #
+    #
+    # row_buffer = np.zeros(colsize,)
+    #
+    # for i in range(1, rowsize + 1):
+    #     for j in range(1, colsize + 1):
+    #         ## Extreme Data Detector
+    #         MINinW = 0.
+    #         MAXinW = 255.
+    #         pi = 0
+    #
+    #         # f_bar = padIm[i, j]
+    #         f_bar = 0
+    #         flag1 = padIm[i, j] == MINinW
+    #         flag2 = padIm[i, j] == MAXinW
+    #
+    #         if ((padIm[i, j] == MINinW) or (padIm[i, j] == MAXinW)):
+    #             pi = 1 # Noisy pixel
+    #
+    #         if (pi == 0): # If not noisy pixel
+    #             f_bar = padIm[i, j]
+    #
+    #         else:
+    #             b = 0
+    #
+    #             if ((padIm[i + 1, j] == MINinW) or padIm[i + 1, j] == MAXinW):
+    #                 b = 1 # Check surrounding pixel
+    #
+    #                 ### Edge-Oriented Noise filter
+    #                 if (b == 1): # If surrounding pixel is noisy
+    #                     if ((padIm[i - 1, j - 1] == MINinW) and (padIm[i - 1, j] == MINinW) and (padIm[i - 1, j + 1] == MINinW)):
+    #                         f_hat = MINinW
+    #                     elif ((padIm[i - 1, j - 1] == MAXinW) and (padIm[i - 1, j] == MAXinW) and (padIm[i - 1, j + 1] == MAXinW)):
+    #                         f_hat = MAXinW
+    #                     else:
+    #                         f_hat = ((padIm[i - 1, j - 1]) + 2 * (padIm[i - 1, j]) + (padIm[i - 1, j + 1])) / 4
+    #
+    #             else: # If surrounding pixel is not noisy
+    #                 Da = abs(padIm[i - 1, j - 1] - padIm[i + 1, j])
+    #                 Db = abs(padIm[i - 1, j]     - padIm[i + 1, j])
+    #                 Dc = abs(padIm[i - 1, j + 1] - padIm[i + 1, j])
+    #
+    #                 f_hat_Da = (padIm[i - 1, j - 1] + padIm[i + 1, j]) / 2
+    #                 f_hat_Db = (padIm[i - 1, j]     + padIm[i + 1, j]) / 2
+    #                 f_hat_Dc = (padIm[i - 1, j + 1] + padIm[i + 1, j]) / 2
+    #
+    #                 D = np.array([Da, Db, Dc])
+    #                 Dmin = np.min(D)
+    #
+    #                 if (Dmin == Da):
+    #                     f_hat = f_hat_Da
+    #                 elif (Dmin == Db):
+    #                     f_hat = f_hat_Db
+    #                 else:
+    #                     f_hat = f_hat_Dc
+    #
+    #             # Impulse Arbiter
+    #             if (abs(padIm[i, j] - f_hat) > Ts):
+    #                 f_bar = f_hat
+    #             else:
+    #                 f_bar = padIm[i, j]
+    #
+    #         row_buffer[j - 1] = f_bar
+    #
+    #     row_buffer = np.round(row_buffer, 0)
+    #     denoised_image[i - 1, :] = row_buffer
+    #     # temp = np.pad(row_buffer, [1], 'symmetric')
+    #     padIm[i, :] = np.pad(row_buffer, [1], 'symmetric')
+    #
+    # print("hw_RSEPD end")
+    # denoised_image = np.clip(denoised_image, 0, 255)
+    # denoised_image = denoised_image.astype(np.uint8)
+    # elapsed_time = time.time() - start_time
+    # print("Elapsed Time of hw_RSEPD : %d (sec)" %elapsed_time)
+    # return denoised_image
 
 def paper_jrt(input_image = None, N = 4):
     start_time = time.time()

@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.14 18:00&#10;RESPD is needed to be optimized... &#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)">
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.14 21:00&#10;RESPD is needed to be optimized... -ing&#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,7 @@
       <updated>1599724826935</updated>
       <workItem from="1599724827963" duration="13020000" />
       <workItem from="1599748445084" duration="2333000" />
-      <workItem from="1600060483031" duration="16121000" />
+      <workItem from="1600060483031" duration="19005000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600074095279</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2020.09.14 21:00&#10;RESPD is needed to be optimized... -ing&#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)">
+      <created>1600084579687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600084579687</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,71 +265,72 @@
     <MESSAGE value="2020.09.14 11:00&#10;Error detected in salt and pepper denoise function..." />
     <MESSAGE value="2020.09.14 11:30&#10;Error detected in salt and pepper denoise function... - Done" />
     <MESSAGE value="2020.09.14 18:00&#10;RESPD is needed to be optimized... &#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.09.14 18:00&#10;RESPD is needed to be optimized... &#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)" />
+    <MESSAGE value="2020.09.14 21:00&#10;RESPD is needed to be optimized... -ing&#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.14 21:00&#10;RESPD is needed to be optimized... -ing&#10;&#10;Elapsed Time of imgload : 0 (sec)&#10;Elapsed Time of salt_and_pepper : 6 (sec)&#10;Elapsed Time of hw_RSEPD : 11 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of hw_RSEPD : 10 (sec)&#10;Elapsed Time of paper_jrt : 6 (sec)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog" timestamp="1599749366358">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599749366358" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440407" />
     <state width="2517" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129590" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1600084326776">
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
     <state width="2517" height="460" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129589" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326776" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1600084326776">
+    <state width="2517" height="460" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440405" />
     <state width="2517" height="460" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129589" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326776" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
     <state width="2517" height="460" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129589" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
-    <state width="2517" height="460" key="GridCell.Tab.1.bottom" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.1.bottom" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442018" />
     <state width="2517" height="460" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129590" />
-    <state width="2517" height="460" key="GridCell.Tab.1.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
-    <state width="2517" height="460" key="GridCell.Tab.1.center" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.1.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.1.center" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
     <state width="2517" height="460" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129590" />
-    <state width="2517" height="460" key="GridCell.Tab.1.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
-    <state width="2517" height="460" key="GridCell.Tab.1.left" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.1.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.1.left" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442016" />
     <state width="2517" height="460" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129590" />
-    <state width="2517" height="460" key="GridCell.Tab.1.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
-    <state width="2517" height="460" key="GridCell.Tab.1.right" timestamp="1600084326777">
+    <state width="2517" height="460" key="GridCell.Tab.1.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
+    <state width="2517" height="460" key="GridCell.Tab.1.right" timestamp="1600134374000">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
     <state width="2517" height="460" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600074129590" />
-    <state width="2517" height="460" key="GridCell.Tab.1.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084326777" />
+    <state width="2517" height="460" key="GridCell.Tab.1.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600134374000" />
     <state x="3341" y="344" key="SettingsEditor" timestamp="1599812800526">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="547" y="275" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599748745889" />
     <state x="3341" y="344" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1599812800526" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1600074103374">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2" timestamp="1600084586805">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600074103374" />
-    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600052426144" />
+    <state x="3432" y="433" key="Vcs.Push.Dialog.v2/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600084586805" />
     <state x="849" y="186" width="863" height="1028" key="find.popup" timestamp="1600073384461">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -340,7 +347,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
-          <line>169</line>
+          <line>170</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
@@ -355,6 +362,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CIS_Convert$from_mat_test.coverage" NAME="from_mat_test Coverage Results" MODIFIED="1600065121824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1600084205388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1600134346551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
