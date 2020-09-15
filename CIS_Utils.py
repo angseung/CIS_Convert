@@ -3,6 +3,9 @@ from PIL import Image
 from matplotlib.pyplot import imshow
 from random import random
 import time
+import cv2
+
+ELAPSED_TIME_OPT = True
 
 def imgload(name = "", mode = 'RGB'):
     start_time = time.time()
@@ -13,7 +16,8 @@ def imgload(name = "", mode = 'RGB'):
 
     im = np.array(img)
     elapsed_time = time.time() - start_time
-    print("Elapsed Time of imgload : %d (sec)" %elapsed_time)
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of imgload : %d (sec)" %elapsed_time)
 
 
     return im
@@ -70,7 +74,8 @@ def add_salt_pepper_noise(X_imgs = None, amount = 0.01, mode = 'RGB'):
     #     coords = [np.random.randint(0, i - 1, int(num_pepper)) for i in X_img.shape]
     #     X_img[coords[0], coords[1], :] = 0
     elapsed_time = time.time() - start_time
-    print("Elapsed Time of add_salt_pepper_noise : %d (sec)" %elapsed_time)
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of add_salt_pepper_noise : %d (sec)" %elapsed_time)
 
     return X_imgs_copy
 
@@ -90,6 +95,80 @@ def salt_and_pepper(image, p):
             else:
                 output[i][j] = image[i][j]
     elapsed_time = time.time() - start_time
-    print("Elapsed Time of salt_and_pepper : %d (sec)" %elapsed_time)
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of salt_and_pepper : %d (sec)" %elapsed_time)
 
     return output
+
+def salt_and_pepper_cv(image, p):
+    start_time = time.time()
+    output = cv2.medianBlur(image, p)
+    elapsed_time = time.time() - start_time
+
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of salt_and_pepper_cv : %d (sec)" %elapsed_time)
+
+    return output
+
+def salt_and_pepper_fast(image, noise_typ, amount):
+    start_time = time.time()
+
+    if noise_typ == "gauss":
+        row,col,ch= image.shape
+        mean = 0
+        #var = 0.1
+        #sigma = var**0.5
+        gauss = np.random.normal(mean,1,(row,col,ch))
+        gauss = gauss.reshape(row,col,ch)
+        noisy = image + gauss
+
+        elapsed_time = time.time() - start_time
+        if (ELAPSED_TIME_OPT):
+            print("Elapsed Time of salt_and_pepper_fast : %d (sec)" %elapsed_time)
+
+        return noisy
+
+    elif noise_typ == "s&p":
+        row,col,ch = image.shape
+        s_vs_p = 0.5
+        amount = 0.04
+        out = image
+
+        # Salt mode
+        num_salt = np.ceil(amount * image.size * s_vs_p)
+        coords = [np.random.randint(0, i - 1, int(num_salt)) for i in image.shape]
+        out[coords] = 255
+
+        # Pepper mode
+        num_pepper = np.ceil(amount* image.size * (1. - s_vs_p))
+        coords = [np.random.randint(0, i - 1, int(num_pepper)) for i in image.shape]
+        out[coords] = 0
+
+        elapsed_time = time.time() - start_time
+        if (ELAPSED_TIME_OPT):
+            print("Elapsed Time of salt_and_pepper_cv : %d (sec)" %elapsed_time)
+
+        return out
+
+    elif noise_typ == "poisson":
+        vals = len(np.unique(image))
+        vals = 2 ** np.ceil(np.log2(vals))
+        noisy = np.random.poisson(image * vals) / float(vals)
+
+        elapsed_time = time.time() - start_time
+        if (ELAPSED_TIME_OPT):
+            print("Elapsed Time of salt_and_pepper_cv : %d (sec)" %elapsed_time)
+
+        return noisy
+
+    elif noise_typ =="speckle":
+        row,col,ch = image.shape
+        gauss = np.random.randn(row,col,ch)
+        gauss = gauss.reshape(row,col,ch)
+        noisy = image + image * gauss
+
+        elapsed_time = time.time() - start_time
+        if (ELAPSED_TIME_OPT):
+            print("Elapsed Time of salt_and_pepper_cv : %d (sec)" %elapsed_time)
+
+        return noisy

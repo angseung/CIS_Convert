@@ -23,8 +23,8 @@ numFilters = len(filters)
 psnrs = np.zeros((numFilters, numNoise))
 
 if (numFilters >= 7):
-    raise NotImplementedError("Too many filters are considered!!!")
     plotshape = 0
+    raise NotImplementedError("Too many filters are considered!!!")
 
 else:
     plotshape = [13,23,23,23,33,33,33]
@@ -35,7 +35,7 @@ for nr in range(numNoise):
         if (not ("tiff" in testImages[imnum])):
             continue
 
-        ori_image = imgload("10_8D5U5533.tiff", 'RGB')
+        ori_image = imgload(testImages[imnum], 'RGB')
         print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)
@@ -43,7 +43,8 @@ for nr in range(numNoise):
         plt.imshow(ori_image)
 
         # image_noise = add_salt_pepper_noise([ori_image], 0.0001, 'RGB')
-        image_noise = salt_and_pepper(ori_image, 0.01)
+        # image_noise = salt_and_pepper(ori_image, 0.01)
+        image_noise = salt_and_pepper_fast(ori_image, "s&p", 0.01)
         plt.subplot(4,1,2)
         plt.title("Noised Image")
         # plt.imshow(image_noise[0])
@@ -56,6 +57,9 @@ for nr in range(numNoise):
         # image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
         # image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
         image_NR[:, :, 0] = hw_RSEPD_fast(image_noise[:, :, 0], 20)
+        # image_NR_Valid = hw_RSEPD(image_noise[:, :, 0], 20)
+        # test_a = image_NR[:, :, 0]
+        # print(np.array_equal(image_NR[:, :, 0], image_NR_Valid))
         image_NR[:, :, 1] = hw_RSEPD_fast(image_noise[:, :, 1], 20)
         image_NR[:, :, 2] = hw_RSEPD_fast(image_noise[:, :, 2], 20)
 
@@ -69,7 +73,8 @@ for nr in range(numNoise):
         plt.imshow(image_JRT)
 
         plt.show()
-        fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
+        # fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
+        fig.savefig("Test_Result_Rev/Processed_IMG_%s.png" % testImages[imnum])
 
 
 
