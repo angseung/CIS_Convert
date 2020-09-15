@@ -31,11 +31,13 @@ else:
 
 for nr in range(numNoise):
     for imnum in range(numImages):
+        curr_file = testImages[imnum]
         # if ((testImages[imnum] == ".DS_Store") or (testImages[imnum] == "Gray Scale")):
-        if (not ("tiff" in testImages[imnum])):
+        if (not ("tiff" in curr_file)):
             continue
 
-        ori_image = imgload(testImages[imnum], 'RGB')
+        # ori_image = imgload(testImages[imnum], 'RGB')
+        ori_image = imgload_cv(testImages[imnum], 'RGB')
         print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)
@@ -53,28 +55,28 @@ for nr in range(numNoise):
         # fig.savefig("Salt_and_Pepper_Noised_IMG.png")
 
         image_NR = np.zeros(ori_image.shape, dtype = np.uint8)
+
         # image_NR[:, :, 0] = hw_RSEPD(image_noise[0][:, :, 0], 20)
         # image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
         # image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
-        image_NR[:, :, 0] = hw_RSEPD_fast(image_noise[:, :, 0], 20)
-        # image_NR_Valid = hw_RSEPD(image_noise[:, :, 0], 20)
-        # test_a = image_NR[:, :, 0]
-        # print(np.array_equal(image_NR[:, :, 0], image_NR_Valid))
-        image_NR[:, :, 1] = hw_RSEPD_fast(image_noise[:, :, 1], 20)
-        image_NR[:, :, 2] = hw_RSEPD_fast(image_noise[:, :, 2], 20)
+
+        # image_NR[:, :, 0] = hw_RSEPD_fast(image_noise[:, :, 0], 20)
+        # image_NR[:, :, 1] = hw_RSEPD_fast(image_noise[:, :, 1], 20)
+        # image_NR[:, :, 2] = hw_RSEPD_fast(image_noise[:, :, 2], 20)
 
         plt.subplot(4,1,3)
         plt.title("Noise Reduced Image")
         plt.imshow(image_NR)
 
+        # ori_image = (loadmat("testimg.mat"))["IMG"]
         image_JRT = paper_jrt(ori_image, 4)
         plt.subplot(4,1,4)
         plt.title("JRT applied Image")
         plt.imshow(image_JRT)
 
         plt.show()
-        # fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
-        fig.savefig("Test_Result_Rev/Processed_IMG_%s.png" % testImages[imnum])
+        fig.savefig("Test_Results/Processed_IMG_%s.png" %testImages[imnum])
+        # fig.savefig("Test_Result_Rev/Processed_IMG_%s.png" % testImages[imnum])
 
 
 

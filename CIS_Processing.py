@@ -210,7 +210,8 @@ def paper_jrt(input_image = None, N = 4):
             gain = now
         else:
             gain = gain + np.abs(before - now)
-        gain_view = np.sum(gain, 0)
+        # gain_view = np.sum(gain, 0)
+        a = np.sum(gain, 0)
 
     finalGain = np.sum(gain, 0)
 

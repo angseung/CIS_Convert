@@ -15,12 +15,33 @@ def imgload(name = "", mode = 'RGB'):
     #     raise NotImplementedError()
 
     im = np.array(img)
+
     elapsed_time = time.time() - start_time
     if (ELAPSED_TIME_OPT):
         print("Elapsed Time of imgload : %d (sec)" %elapsed_time)
 
-
     return im
+
+def imgload_cv(name = "", mode = 'RGB'):
+    start_time = time.time()
+
+    if (mode == "RGB"):
+        mode__ = cv2.IMREAD_COLOR
+    elif (mode == "GRAY"):
+        mode__ = cv2.IMREAD_GRAYSCALE
+
+    img = cv2.imread("input_images/" + name, mode__)
+
+    # if (img.mode is not 'RGB'):
+    #     raise NotImplementedError()
+
+    # im = np.array(img)
+
+    elapsed_time = time.time() - start_time
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of imgload_cv : %d (sec)" %elapsed_time)
+
+    return img
 
 def add_salt_pepper_noise(X_imgs = None, amount = 0.01, mode = 'RGB'):
     start_time = time.time()
