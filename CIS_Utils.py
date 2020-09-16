@@ -133,6 +133,7 @@ def salt_and_pepper_cv(image, p):
 
 def salt_and_pepper_fast(image, noise_typ, amount):
     start_time = time.time()
+    np.random.seed(123)
 
     if noise_typ == "gauss":
         row,col,ch= image.shape

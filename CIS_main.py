@@ -60,9 +60,9 @@ for nr in range(numNoise):
         # image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
         # image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
 
-        image_NR[:, :, 0] = hw_RSEPD_fast_Prev(image_noise[:, :, 0], 20)
-        image_NR[:, :, 1] = hw_RSEPD_fast_Prev(image_noise[:, :, 1], 20)
-        image_NR[:, :, 2] = hw_RSEPD_fast_Prev(image_noise[:, :, 2], 20)
+        image_NR[:, :, 0] = hw_RSEPD_fast_HT(image_noise[:, :, 0], 20)
+        image_NR[:, :, 1] = hw_RSEPD_fast_HT(image_noise[:, :, 1], 20)
+        image_NR[:, :, 2] = hw_RSEPD_fast_HT(image_noise[:, :, 2], 20)
 
         plt.subplot(4,1,3)
         plt.title("Noise Reduced Image")

@@ -19,9 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.16 10:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing">
+    <list default="true" id="5134b617-5e1b-40e3-8b08-37618b753849" name="Default Changelist" comment="2020.09.16 12:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing">
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_11_8D5U5534.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_12_8D5U5535.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_13_8D5U5536.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_14_8D5U5537.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_15_8D5U5538.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_16_8D5U5539.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_17_8D5U5540.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_18_8D5U5541.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_19_8D5U5543.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_1_8D5U5524.tiff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_20_8D5U5544.tiff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIS_Processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIS_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIS_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_Results/Processed_IMG_10_8D5U5533.tiff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Results/Processed_IMG_10_8D5U5533.tiff.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +197,8 @@
       <workItem from="1600060483031" duration="25546000" />
       <workItem from="1600146143975" duration="2835000" />
       <workItem from="1600149617848" duration="120000" />
-      <workItem from="1600152010477" duration="14224000" />
+      <workItem from="1600152010477" duration="14243000" />
+      <workItem from="1600230480955" duration="12481000" />
     </task>
     <task id="LOCAL-00001" summary="2020.09.10&#10;Python Code Added...">
       <created>1599725332794</created>
@@ -277,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600219216629</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2020.09.16 12:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing">
+      <created>1600230454526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600230454526</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,62 +331,67 @@
     <MESSAGE value="2020.09.15 15:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing" />
     <MESSAGE value="2020.09.15 23:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing" />
     <MESSAGE value="2020.09.16 10:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.09.16 10:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing" />
+    <MESSAGE value="2020.09.16 12:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.09.16 12:00&#10;RESPD is needed to be optimized... Done&#10;Add Noise function was optimized... Done&#10;Read Image Validation... ing&#10;Additional Optimizing... ing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="735" y="251" width="2275" height="1150" maximized="true" key="DiffContextDialog" timestamp="1600146531053">
+    <state x="735" y="251" width="2275" height="1150" maximized="true" key="DiffContextDialog" timestamp="1600230903864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599749366358" />
     <state x="735" y="251" width="2275" height="1150" maximized="true" key="DiffContextDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600146531053" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1600223520745">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440407" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600223520745" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1600223520745">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1600241332263">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600223520745" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1600223520745">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332263" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1600241332263">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440405" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600223520745" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1600223520745">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332263" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750440406" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600223520745" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.1.bottom" timestamp="1600223602722">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state width="2517" height="460" key="GridCell.Tab.1.bottom" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442018" />
-    <state width="2517" height="460" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600223602722" />
-    <state width="2517" height="460" key="GridCell.Tab.1.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258122" />
-    <state width="2517" height="460" key="GridCell.Tab.1.center" timestamp="1600223602722">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.1.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state width="2517" height="460" key="GridCell.Tab.1.center" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
-    <state width="2517" height="460" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600223602722" />
-    <state width="2517" height="460" key="GridCell.Tab.1.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.1.left" timestamp="1600223602722">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.1.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state width="2517" height="460" key="GridCell.Tab.1.left" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442016" />
-    <state width="2517" height="460" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600223602722" />
-    <state width="2517" height="460" key="GridCell.Tab.1.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
-    <state width="2517" height="460" key="GridCell.Tab.1.right" timestamp="1600223602722">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="460" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.1.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state width="2517" height="460" key="GridCell.Tab.1.right" timestamp="1600241332264">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599750442017" />
-    <state width="2517" height="460" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600223602722" />
-    <state width="2517" height="460" key="GridCell.Tab.1.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600219258121" />
+    <state width="2517" height="460" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600230461109" />
+    <state width="2517" height="460" key="GridCell.Tab.1.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600241332264" />
+    <state x="2859" y="280" width="796" height="823" key="Registry" timestamp="1600238031841">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2859" y="280" width="796" height="823" key="Registry/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600238031841" />
     <state x="3341" y="344" key="SettingsEditor" timestamp="1599812800526">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
@@ -381,19 +407,33 @@
     </state>
     <state x="594" y="149" width="604" height="822" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599749408903" />
     <state x="849" y="186" width="863" height="1028" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1600073384461" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1600237870463">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1600237870463" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
-          <line>128</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/CIS_main.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/CIS_main.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="43" />
+          <line>64</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CIS_Processing.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -407,6 +447,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CIS_Convert$from_mat_test.coverage" NAME="from_mat_test Coverage Results" MODIFIED="1600065121824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1600223520556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CIS_Convert$CIS_main.coverage" NAME="CIS_main Coverage Results" MODIFIED="1600241226806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
