@@ -226,14 +226,15 @@ def hw_RSEPD_fast_Prev(input_image = None, Ts = 20):
     # padIm = np.pad(input_image, ([1, 1], [1, 1]), 'symmetric')
     # padIm = np.pad(input_image, ([1, 1], [1, 1], [0, 0]), 'symmetric')
     padIm = np.pad(input_image, [num_pad, num_pad], 'symmetric')
-    padIm = padIm.astype(np.float64)
+    # padIm = padIm.astype(np.float64)
     rowsize, colsize = padIm.shape
-    row_buffer = np.zeros((colsize,), dtype = np.float64)
+    # row_buffer = np.zeros((colsize,), dtype = np.float64)
+    row_buffer = np.zeros((colsize,), dtype = np.uint8)
 
     padIm = padIm.flatten()
     length = (rowsize  * colsize)
-    MINinW = 0.
-    MAXinW = 255.
+    MINinW = 0
+    MAXinW = 255
 
     # index_MINinW = np.where(padIm == MINinW)[0]
     # index_MAXinW = np.where(padIm == MAXinW)[0]
@@ -249,7 +250,7 @@ def hw_RSEPD_fast_Prev(input_image = None, Ts = 20):
 
             if ((x - 1) == (colsize - 2)):
                 padIm[((y * colsize) + 1): (((y + 1) * colsize) - 1)] = np.round(row_buffer, 0)[1: -1]
-                row_buffer[:] = 0.0
+                row_buffer[:] = 0
 
             continue
 
@@ -271,16 +272,27 @@ def hw_RSEPD_fast_Prev(input_image = None, Ts = 20):
                 elif ((padIm[i - colsize -1] == MAXinW) and (padIm[i - colsize] == MAXinW) or (padIm[i - colsize + 1] == MAXinW)):
                     f_hat = MAXinW
                 else:
-                    f_hat = ((padIm[i - colsize - 1]) + 2 * (padIm[i - colsize]) + (padIm[i - colsize + 1])) / 4
+                    f_hat = ((padIm[i - colsize - 1]) + 2 * (padIm[i - colsize]) + (padIm[i - colsize + 1])) // 4
 
             else:
-                Da = abs(padIm[i - colsize - 1] - padIm[i + colsize])
-                Db = abs(padIm[i - colsize] - padIm[i + colsize])
-                Dc = abs(padIm[i - colsize + 1] - padIm[i + colsize])
+                temp = padIm[i + colsize].item()
+                Da = abs(padIm[i - colsize - 1].item() - temp)
+                Db = abs(padIm[i - colsize    ].item() - temp)
+                Dc = abs(padIm[i - colsize + 1].item() - temp)
 
-                f_hat_Da = (padIm[i - colsize - 1] + padIm[i + colsize]) / 2
-                f_hat_Db = (padIm[i - colsize] + padIm[i + colsize]) / 2
-                f_hat_Dc = (padIm[i - colsize + 1] + padIm[i + colsize]) / 2
+                # Da = np.array([padIm[i - colsize - 1], temp], dtype = np.uint8)
+                # Db = np.array([padIm[i - colsize - 1], temp], dtype = np.uint8)
+                # Dc = np.array([padIm[i - colsize - 1], temp], dtype = np.uint8)
+                #
+                # Da = (Da.max() - Da.min())
+                # Db = (Db.max() - Db.min())
+                # Dc = (Dc.max() - Dc.min())
+
+                ## Divide then add
+                temp = (padIm[i + colsize] // 2)
+                f_hat_Da = (padIm[i - colsize - 1] // 2) + temp
+                f_hat_Db = (padIm[i - colsize] // 2) + temp
+                f_hat_Dc = (padIm[i - colsize + 1] // 2) + temp
 
                 D = np.array([Da, Db, Dc])
                 Dmin = np.min(D)
@@ -307,9 +319,11 @@ def hw_RSEPD_fast_Prev(input_image = None, Ts = 20):
     elapsed_time = time.time() - start_time
     denoised_image = padIm.reshape([rowsize, colsize])
     denoised_image = denoised_image[1 : -1, 1: -1]
-    if (ELAPSED_TIME_OPT):
-        print("Elapsed Time of hw_RSEPD_fast : %d (sec)" %elapsed_time)
 
+    if (ELAPSED_TIME_OPT):
+        print("Elapsed Time of hw_RSEPD_fast_Prev : %d (sec)" %elapsed_time)
+
+    # return denoised_image.astype(np.uint8)
     return denoised_image
 
 def paper_jrt(input_image = None, N = 4):
