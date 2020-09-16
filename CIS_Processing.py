@@ -218,7 +218,7 @@ def hw_RSEPD_fast(input_image = None, Ts = 20):
 
     return denoised_image
 
-def hw_RSEPD_fast_Rev(input_image = None, Ts = 20):
+def hw_RSEPD_fast_Prev(input_image = None, Ts = 20):
     start_time = time.time()
     num_pad = 1
     # denoised_image = np.zeros(input_image.shape,)
@@ -227,8 +227,7 @@ def hw_RSEPD_fast_Rev(input_image = None, Ts = 20):
     # padIm = np.pad(input_image, ([1, 1], [1, 1], [0, 0]), 'symmetric')
     padIm = np.pad(input_image, [num_pad, num_pad], 'symmetric')
     padIm = padIm.astype(np.float64)
-    rowsize = padIm.shape[0]
-    colsize = padIm.shape[1]
+    rowsize, colsize = padIm.shape
     row_buffer = np.zeros((colsize,), dtype = np.float64)
 
     padIm = padIm.flatten()
@@ -236,14 +235,13 @@ def hw_RSEPD_fast_Rev(input_image = None, Ts = 20):
     MINinW = 0.
     MAXinW = 255.
 
-    index_MINinW = np.where(padIm == MINinW)[0]
-    index_MAXinW = np.where(padIm == MAXinW)[0]
+    # index_MINinW = np.where(padIm == MINinW)[0]
+    # index_MAXinW = np.where(padIm == MAXinW)[0]
 
     for i in range((colsize + 1), ((rowsize - 1) * colsize), 1):
 
         ## Extreme Data Detector
         (x, y) = ((i % colsize), (i // colsize))
-        # print("Current index : [%d] // [%d] [%d]" %(i, x, y))
 
         # continue loop at padded pixels
         if ((y == 0) or (y == (rowsize - 1)) or (x == 0) or (x == (colsize - 1))):
@@ -257,8 +255,6 @@ def hw_RSEPD_fast_Rev(input_image = None, Ts = 20):
 
         pi = 0
         f_bar = 0
-        # flag1 = (padIm[i] == MINinW)
-        # flag2 = (padIm[i] == MAXinW)
 
         if ((padIm[i] == MINinW) or (padIm[i] == MAXinW)):
             pi = 1
@@ -270,15 +266,12 @@ def hw_RSEPD_fast_Rev(input_image = None, Ts = 20):
             b = 0
 
             if ((padIm[i + colsize] == MINinW) or (padIm[i + colsize] == MAXinW)):
-                b = 1
-
-                if (b == 1):
-                    if ((padIm[i - colsize -1] == MINinW) and (padIm[i - colsize] == MINinW) or (padIm[i - colsize + 1] == MINinW)):
-                        f_hat = MINinW
-                    elif ((padIm[i - colsize -1] == MAXinW) and (padIm[i - colsize] == MAXinW) or (padIm[i - colsize + 1] == MAXinW)):
-                        f_hat = MAXinW
-                    else:
-                        f_hat = ((padIm[i - colsize - 1]) + 2 * (padIm[i - colsize]) + (padIm[i - colsize + 1])) / 4
+                if ((padIm[i - colsize -1] == MINinW) and (padIm[i - colsize] == MINinW) or (padIm[i - colsize + 1] == MINinW)):
+                    f_hat = MINinW
+                elif ((padIm[i - colsize -1] == MAXinW) and (padIm[i - colsize] == MAXinW) or (padIm[i - colsize + 1] == MAXinW)):
+                    f_hat = MAXinW
+                else:
+                    f_hat = ((padIm[i - colsize - 1]) + 2 * (padIm[i - colsize]) + (padIm[i - colsize + 1])) / 4
 
             else:
                 Da = abs(padIm[i - colsize - 1] - padIm[i + colsize])
