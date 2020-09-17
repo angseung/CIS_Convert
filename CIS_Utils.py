@@ -115,6 +115,7 @@ def salt_and_pepper(image, p):
                 output[i][j] = 255
             else:
                 output[i][j] = image[i][j]
+
     elapsed_time = time.time() - start_time
     if (ELAPSED_TIME_OPT):
         print("Elapsed Time of salt_and_pepper : %d (sec)" %elapsed_time)
@@ -194,3 +195,16 @@ def salt_and_pepper_fast(image, noise_typ, amount):
             print("Elapsed Time of salt_and_pepper_cv : %d (sec)" %elapsed_time)
 
         return noisy
+
+def salt_and_pepper_rev(img, p):
+    org_shape = img.shape
+    wsize = img.shape[0] * img.shape[1]
+    img = img.reshape(wsize)
+
+    thres = 1 - p
+    rnd_array = np.random.random(size=wsize)
+
+    img[rnd_array < p] = 0
+    img[rnd_array > thres] = 255
+
+    return img.reshape(org_shape)
