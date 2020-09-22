@@ -8,8 +8,6 @@ from scipy.io import loadmat
 import time
 
 
-# testImages = ["testimage.jpg"]
-# testImages = ["67_8D5U5597.tiff"]
 testImages = os.listdir("input_images")
 numImages = len(testImages)
 
@@ -36,39 +34,29 @@ for nr in range(numNoise):
         if (not ("tiff" in curr_file)):
             continue
 
-        # ori_image = imgload(testImages[imnum], 'RGB')
         ori_image = imgload_cv(testImages[imnum], 'RGB')
+        # ori_image = imgload_cv(testImages[imnum], 'RGB')
         print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)
         plt.title("Original Image")
         plt.imshow(ori_image)
 
-        # image_noise = add_salt_pepper_noise([ori_image], 0.0001, 'RGB')
-        # image_noise = salt_and_pepper(ori_image, 0.01)
         image_noise = salt_and_pepper_fast(ori_image, "s&p", 0.01)
         plt.subplot(4,1,2)
         plt.title("Noised Image")
-        # plt.imshow(image_noise[0])
         plt.imshow(image_noise)
-        # plt.show()
-        # fig.savefig("Salt_and_Pepper_Noised_IMG.png")
 
         image_NR = np.zeros(ori_image.shape, dtype = np.uint8)
 
-        # image_NR[:, :, 0] = hw_RSEPD(image_noise[0][:, :, 0], 20)
-        # image_NR[:, :, 1] = hw_RSEPD(image_noise[0][:, :, 1], 20)
-        # image_NR[:, :, 2] = hw_RSEPD(image_noise[0][:, :, 2], 20)
-
-        image_NR[:, :, 0] = hw_RSEPD_fast_HT(image_noise[:, :, 0], 20)
-        image_NR[:, :, 1] = hw_RSEPD_fast_HT(image_noise[:, :, 1], 20)
-        image_NR[:, :, 2] = hw_RSEPD_fast_HT(image_noise[:, :, 2], 20)
+        image_NR[:, :, 0] = hw_RSEPD(image_noise[:, :, 0], 20)
+        image_NR[:, :, 1] = hw_RSEPD(image_noise[:, :, 1], 20)
+        image_NR[:, :, 2] = hw_RSEPD(image_noise[:, :, 2], 20)
 
         plt.subplot(4,1,3)
         plt.title("Noise Reduced Image")
         plt.imshow(image_NR)
 
-        # ori_image = (loadmat("testimg.mat"))["IMG"]
         image_JRT = paper_jrt(ori_image, 4)
         plt.subplot(4,1,4)
         plt.title("JRT applied Image")

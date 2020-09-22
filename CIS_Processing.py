@@ -5,16 +5,17 @@ ELAPSED_TIME_OPT = True
 
 def hw_RSEPD(input_image = None, Ts = 20):
     start_time = time.time()
-    rowsize = input_image.shape[0]
-    colsize = input_image.shape[1]
-    denoised_image = np.zeros(input_image.shape,)
 
-    # padIm = np.pad(input_image, ([1, 1], [1, 1]), 'symmetric')
-    # padIm = np.pad(input_image, ([1, 1], [1, 1], [0, 0]), 'symmetric')
-    padIm = np.pad(input_image, [1, 1], 'symmetric')
-    padIm = padIm.astype(np.float64)
+    if ((len(input_image.shape) is not 2)):
+        raise ValueError("'input_image' MUST be 2D image np array")
 
-    row_buffer = np.zeros(colsize,)
+    rowsize, colsize = input_image.shape
+    # colsize = input_image.shape[1]
+    denoised_image = np.zeros((rowsize, colsize), dtype = np.float64)
+
+    padIm = np.pad(input_image, [1, 1], 'symmetric').astype(np.float64)
+
+    row_buffer = np.zeros(colsize, dtype = np.float64)
 
     for i in range(1, rowsize + 1):
         for j in range(1, colsize + 1):
@@ -446,9 +447,10 @@ def hw_RSEPD_fast_U8(input_image = None, Ts = 20):
 
 def paper_jrt(input_image = None, N = 4):
     start_time = time.time()
-    # truncRed = 0
-    # truncGreen = 0
-    # truncBlue = 0
+
+    if ((len(input_image.shape) != 3) or (len(input_image.shape) != 2)):
+        raise ValueError("'input_image' MUST be 2D or 3D image np array")
+
     input_image = input_image.astype(np.float64)
     output_image = np.zeros(input_image.shape)
     rowsize = (input_image.shape[0]) // N
@@ -493,16 +495,13 @@ def paper_jrt(input_image = None, N = 4):
     print("hw_JRT end")
     return output_image
 
-def white_balance(input_image=None, N=4):
-    # truncRed = 0
-    # truncGreen = 0
-    # truncBlue = 0
+def white_balance(input_image = None, N = 4):
     input_image = input_image.astype(np.float64)
     output_image = np.zeros(input_image.shape)
     rowsize = (input_image.shape[0]) // N
 
     now = 0
-    gain = np.zeros([input_image.shape[0], input_image.shape[2]], dtype=np.float64)
+    gain = np.zeros([input_image.shape[0], input_image.shape[2]], dtype = np.float64)
 
     for i in range(1, rowsize + 1):
         before = now
