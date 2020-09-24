@@ -35,7 +35,6 @@ for nr in range(numNoise):
             continue
 
         ori_image = imgload_cv(testImages[imnum], 'RGB')
-        # ori_image = imgload_cv(testImages[imnum], 'RGB')
         print("Processing %s File..." %testImages[imnum])
         fig = plt.figure(1, figsize = [10, 20])
         plt.subplot(4,1,1)

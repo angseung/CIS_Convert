@@ -124,6 +124,10 @@ def salt_and_pepper(image, p):
 
 def salt_and_pepper_fast(image, noise_typ, amount):
     start_time = time.time()
+    if (type(image) is not "numpy.ndarray"):
+        if ((len(image.shape) != 3) and (len(image.shape) != 2)):
+            raise ValueError("'input_image' MUST be 2D or 3D image np array")
+
     np.random.seed(123)
 
     if noise_typ == "gauss":
@@ -150,12 +154,12 @@ def salt_and_pepper_fast(image, noise_typ, amount):
         # Salt mode
         num_salt = np.ceil(amount * image.size * s_vs_p)
         coords = [np.random.randint(0, i - 1, int(num_salt)) for i in image.shape]
-        out[coords] = 255
+        out[tuple(coords)] = 255
 
         # Pepper mode
         num_pepper = np.ceil(amount* image.size * (1. - s_vs_p))
         coords = [np.random.randint(0, i - 1, int(num_pepper)) for i in image.shape]
-        out[coords] = 0
+        out[tuple(coords)] = 0
 
         elapsed_time = time.time() - start_time
         if (ELAPSED_TIME_OPT):

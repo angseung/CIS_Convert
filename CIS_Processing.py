@@ -6,8 +6,9 @@ ELAPSED_TIME_OPT = True
 def hw_RSEPD(input_image = None, Ts = 20):
     start_time = time.time()
 
-    if ((len(input_image.shape) is not 2)):
-        raise ValueError("'input_image' MUST be 2D image np array")
+    if (type(input_image) is not "numpy.ndarray"):
+        if ((len(input_image.shape) is not 2)):
+            raise ValueError("'input_image' MUST be 2D image np array")
 
     rowsize, colsize = input_image.shape
     # colsize = input_image.shape[1]
@@ -447,9 +448,9 @@ def hw_RSEPD_fast_U8(input_image = None, Ts = 20):
 
 def paper_jrt(input_image = None, N = 4):
     start_time = time.time()
-
-    if ((len(input_image.shape) != 3) or (len(input_image.shape) != 2)):
-        raise ValueError("'input_image' MUST be 2D or 3D image np array")
+    if (type(input_image) is not "numpy.ndarray"):
+        if ((len(input_image.shape) != 3) and (len(input_image.shape) != 2)):
+            raise ValueError("'input_image' MUST be 2D or 3D image np array")
 
     input_image = input_image.astype(np.float64)
     output_image = np.zeros(input_image.shape)
@@ -496,6 +497,10 @@ def paper_jrt(input_image = None, N = 4):
     return output_image
 
 def white_balance(input_image = None, N = 4):
+    if (type(input_image) is not "numpy.ndarray"):
+        if ((len(input_image.shape) != 3) and (len(input_image.shape) != 2)):
+            raise ValueError("'input_image' MUST be 2D or 3D image np array")
+
     input_image = input_image.astype(np.float64)
     output_image = np.zeros(input_image.shape)
     rowsize = (input_image.shape[0]) // N
