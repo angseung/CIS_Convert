@@ -147,3 +147,7 @@ cython_debug/
 *.iml
 out
 gen
+
+### Test Image Excluded...
+Test_Result_Rev
+Test_Results
